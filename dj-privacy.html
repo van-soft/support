@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Privacy Policy for Doodle Jam, a drawing, iMessage, and SharePlay app for Apple devices.">
+  <title>Doodle Jam — Privacy Policy</title>
+  <style>
+    :root {
+      --ink: #171820;
+      --muted: #676875;
+      --accent: #e73b80;
+      --accent-2: #167cd8;
+      --accent-soft: #fff0f6;
+      --bg: #f7f5f0;
+      --card: #fffefa;
+      --line: #e9e4dc;
+      --shadow: rgba(39, 28, 49, .09);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 8% 2%, rgba(255, 191, 35, .18), transparent 25rem),
+        radial-gradient(circle at 93% 8%, rgba(27, 174, 230, .14), transparent 28rem),
+        var(--bg);
+      color: var(--ink);
+      font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 840px; margin: 0 auto; padding: 48px 22px 80px; }
+    .card {
+      position: relative;
+      overflow: hidden;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 46px 42px;
+      box-shadow: 0 18px 60px var(--shadow);
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 5px;
+      background: linear-gradient(90deg, #1edb6d, #1ecbe5, #477eff, #a252f1, #f43c8c, #ff6245, #ffb91f, #aee933);
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--accent);
+      font-weight: 850;
+      letter-spacing: .055em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    .brand::before {
+      content: "";
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background: conic-gradient(#1edb6d, #1ecbe5, #477eff, #a252f1, #f43c8c, #ff6245, #ffb91f, #1edb6d);
+      box-shadow: inset 0 0 0 4px var(--card);
+    }
+    h1 { font-size: clamp(32px, 6vw, 44px); line-height: 1.1; margin: 14px 0 6px; letter-spacing: -.04em; }
+    h2 { font-size: 21px; line-height: 1.35; margin: 38px 0 10px; letter-spacing: -.014em; }
+    p, li { color: var(--ink); }
+    .updated, .muted { color: var(--muted); }
+    .updated { font-size: 14px; margin: 0 0 28px; }
+    .summary {
+      margin: 24px 0 8px;
+      padding: 18px 20px;
+      background: linear-gradient(115deg, var(--accent-soft), rgba(30, 203, 229, .09));
+      border: 1px solid rgba(231, 59, 128, .11);
+      border-radius: 17px;
+    }
+    a { color: var(--accent-2); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid rgba(22, 124, 216, .3); outline-offset: 3px; border-radius: 3px; }
+    ul { padding-left: 22px; }
+    li { margin: 8px 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 36px 0 24px; }
+    .foot { text-align: center; color: var(--muted); font-size: 13px; margin-top: 24px; }
+    @media (max-width: 560px) {
+      .wrap { padding: 20px 12px 50px; }
+      .card { padding: 32px 22px; border-radius: 22px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #f6f3f7;
+        --muted: #b3afba;
+        --accent: #ff6ba3;
+        --accent-2: #65b8ff;
+        --accent-soft: #33202c;
+        --bg: #0d0e12;
+        --card: #17181e;
+        --line: #303139;
+        --shadow: rgba(0, 0, 0, .27);
+      }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card">
+      <div class="brand">Doodle Jam</div>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: August 13, 2026</p>
+
+      <p>This Privacy Policy explains how Doodle Jam (the “App”, “we”, or “us”) handles information when you use the App, including its iMessage extension and SharePlay features. Doodle Jam is a creative drawing and collaboration tool for Apple devices.</p>
+
+      <p class="summary"><strong>Privacy at a glance:</strong> Doodle Jam does not require an account and does not include third-party advertising, analytics, or tracking SDKs. Most drawings, photos, brushes, and settings are processed and stored on your device. Information leaves your device only when needed for a feature you choose, such as an App Store purchase, an iMessage drawing, SharePlay collaboration, or an export to another app.</p>
+
+      <h2>1. Information Processed on Your Device</h2>
+      <p>Doodle Jam processes the following information locally to provide its features:</p>
+      <ul>
+        <li><strong>Creative content:</strong> strokes, layers, colors, canvas settings, imported photos, custom brush images, brush packages, saved brush presets, and generated previews.</li>
+        <li><strong>Preferences:</strong> language, appearance, canvas, tool, color, brush, symmetry, and confirmation settings.</li>
+        <li><strong>Generated media:</strong> exported PNG images and video-only MP4 recordings of your drawing process.</li>
+        <li><strong>Purchase status:</strong> product and verified entitlement information returned by Apple’s StoreKit framework so the App can unlock Doodle Jam Pro.</li>
+      </ul>
+      <p>We do not receive your locally stored creative content or preferences merely because you use the App.</p>
+
+      <h2>2. Local Storage and the App Group</h2>
+      <p>Your in-progress drawing, brush library, palettes, stickers, and preferences are stored in the App’s local container or an Apple App Group container shared between Doodle Jam and its iMessage extension. This sharing happens on your device so the main App and extension can use the same creative resources.</p>
+      <p>Local information remains until you delete the applicable content, reset a setting, delete the App and its associated data, or erase the device. Content you export to Photos, Files, Messages, or another app must be managed separately in that destination.</p>
+
+      <h2>3. Photos, Exports, and Recording</h2>
+      <p>When you choose a picture for a canvas or custom brush, Apple’s system photo picker lets you select the specific item you want to use. Doodle Jam receives and processes only the item you select. It may be resized and stored locally as part of your drawing or brush library.</p>
+      <p>When you choose to save a video to Photos, the App requests add-only Photo Library permission. PNG images and MP4 recordings are created locally and are not automatically uploaded by us. The App does not request camera or microphone access, and drawing-process recordings contain no microphone or ambient audio.</p>
+      <p>Photos stored in or retrieved from iCloud Photos and media shared through Apple’s system share sheet are handled by Apple and the destination you select under their own privacy policies.</p>
+
+      <h2>4. iMessage Drawings and CloudKit</h2>
+      <p>Doodle Jam lets you create, send, reopen, and continue drawings in Messages. A small drawing can be placed directly in the iMessage payload and is delivered by Apple’s Messages service. A preview or sticker image may also be stored in your local Messages history.</p>
+      <p>If a drawing is too large for the message payload, Doodle Jam compresses and encrypts the drawing on your device using a new encryption key, then uploads only the encrypted data to Doodle Jam’s public CloudKit database. A random record identifier and the decryption key travel inside the iMessage. The CloudKit record is configured with a 30-day availability period; after that period, the message preview may remain, but continuing the editable drawing may no longer be possible.</p>
+      <p>Apple processes iMessage and CloudKit data according to <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>. Do not share a Doodle Jam message or its link with anyone you do not want to have access to the drawing.</p>
+
+      <h2>5. SharePlay Collaboration</h2>
+      <p>When you choose SharePlay during an eligible FaceTime session, Doodle Jam sends drawing changes, canvas state, and session participant identifiers through Apple’s Group Activities framework so participants can work on the same canvas. This live collaboration data is used for the active session and is not stored on our own server. FaceTime, SharePlay, and participant information are handled by Apple under its policies.</p>
+
+      <h2>6. Purchases</h2>
+      <p>Doodle Jam may offer a one-time, non-consumable Doodle Jam Pro purchase. Billing, payment credentials, refunds, purchase history, and purchase restoration are handled by Apple through the App Store. We do not receive or store your card number or full payment details.</p>
+      <p>The App receives limited transaction information from Apple, such as the product identifier, entitlement status, verification result, and revocation status, solely to provide and restore purchased features.</p>
+
+      <h2>7. Information You Choose to Share</h2>
+      <p>If you export or share a creation, the destination you choose—such as Photos, Files, Messages, social media, or another app—processes that media under its own privacy policy. Doodle Jam does not automatically publish your work.</p>
+      <p>If you contact us by email, we receive your email address, message, attachments, and any other information you choose to provide. We use it to respond, provide support, prevent abuse, and meet legal obligations, and retain it only as long as reasonably necessary for those purposes.</p>
+
+      <h2>8. Analytics, Advertising, and Tracking</h2>
+      <p>Doodle Jam does not include third-party analytics or advertising SDKs, does not create advertising profiles, and does not track you across apps or websites. We do not sell personal information.</p>
+
+      <h2>9. Children’s Privacy</h2>
+      <p>The App can be used without creating an account or submitting personal information to us. We do not knowingly collect personal information from children. If you believe a child has sent personal information to our support address, contact us so we can review and delete it where appropriate.</p>
+
+      <h2>10. Security</h2>
+      <p>We minimize collection, process creative work on-device where practical, and encrypt larger iMessage drawing payloads before uploading them to CloudKit. No storage or transmission method is completely secure. Protect access to your device, share drawing messages carefully, and keep backups of important exported work.</p>
+
+      <h2>11. Your Choices</h2>
+      <ul>
+        <li>You can use core drawing features without importing photos, using iMessage, starting SharePlay, or making a purchase.</li>
+        <li>You can decline add-only Photo Library access and save or share through another available destination.</li>
+        <li>You can remove local creative content in the App and delete exported content from its destination.</li>
+        <li>You can leave a SharePlay session at any time and manage Messages and iCloud through your Apple device settings.</li>
+        <li>You can restore an eligible purchase through the App or manage App Store purchase issues through Apple.</li>
+        <li>You can contact us about support information you previously sent by email.</li>
+      </ul>
+
+      <h2>12. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy to reflect changes to Doodle Jam, legal requirements, or our practices. The revised policy will be posted on this page with a new “Last updated” date.</p>
+
+      <h2>13. Contact</h2>
+      <p>For privacy questions or requests, contact us at <a href="mailto:qiweitech@gmail.com">qiweitech@gmail.com</a>.</p>
+
+      <hr>
+      <p class="muted">See also the <a href="dj-terms.html">Doodle Jam Terms of Service</a>.</p>
+    </article>
+    <div class="foot">© 2026 Doodle Jam. All rights reserved.</div>
+  </main>
+</body>
+</html>
