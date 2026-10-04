@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Privacy Policy for Doodle Jam, a drawing app for Android distributed through Google Play.">
+  <title>Doodle Jam for Android — Privacy Policy</title>
+  <style>
+    :root {
+      --ink: #171820;
+      --muted: #676875;
+      --accent: #e73b80;
+      --accent-2: #167cd8;
+      --accent-soft: #fff0f6;
+      --bg: #f7f5f0;
+      --card: #fffefa;
+      --line: #e9e4dc;
+      --shadow: rgba(39, 28, 49, .09);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 8% 2%, rgba(255, 191, 35, .18), transparent 25rem),
+        radial-gradient(circle at 93% 8%, rgba(27, 174, 230, .14), transparent 28rem),
+        var(--bg);
+      color: var(--ink);
+      font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 840px; margin: 0 auto; padding: 48px 22px 80px; }
+    .card {
+      position: relative;
+      overflow: hidden;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 46px 42px;
+      box-shadow: 0 18px 60px var(--shadow);
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 5px;
+      background: linear-gradient(90deg, #1edb6d, #1ecbe5, #477eff, #a252f1, #f43c8c, #ff6245, #ffb91f, #aee933);
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--accent);
+      font-weight: 850;
+      letter-spacing: .055em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    .brand::before {
+      content: "";
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background: conic-gradient(#1edb6d, #1ecbe5, #477eff, #a252f1, #f43c8c, #ff6245, #ffb91f, #1edb6d);
+      box-shadow: inset 0 0 0 4px var(--card);
+    }
+    h1 { font-size: clamp(32px, 6vw, 44px); line-height: 1.1; margin: 14px 0 6px; letter-spacing: -.04em; }
+    h2 { font-size: 21px; line-height: 1.35; margin: 38px 0 10px; letter-spacing: -.014em; }
+    p, li { color: var(--ink); }
+    .updated, .muted { color: var(--muted); }
+    .updated { font-size: 14px; margin: 0 0 28px; }
+    .summary {
+      margin: 24px 0 8px;
+      padding: 18px 20px;
+      background: linear-gradient(115deg, var(--accent-soft), rgba(30, 203, 229, .09));
+      border: 1px solid rgba(231, 59, 128, .11);
+      border-radius: 17px;
+    }
+    a { color: var(--accent-2); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid rgba(22, 124, 216, .3); outline-offset: 3px; border-radius: 3px; }
+    ul { padding-left: 22px; }
+    li { margin: 8px 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 36px 0 24px; }
+    .foot { text-align: center; color: var(--muted); font-size: 13px; margin-top: 24px; }
+    @media (max-width: 560px) {
+      .wrap { padding: 20px 12px 50px; }
+      .card { padding: 32px 22px; border-radius: 22px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #f6f3f7;
+        --muted: #b3afba;
+        --accent: #ff6ba3;
+        --accent-2: #65b8ff;
+        --accent-soft: #33202c;
+        --bg: #0d0e12;
+        --card: #17181e;
+        --line: #303139;
+        --shadow: rgba(0, 0, 0, .27);
+      }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card">
+      <div class="brand">Doodle Jam for Android</div>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: October 4, 2026</p>
+
+      <p>This Privacy Policy explains how Doodle Jam for Android (the “App”, “we”, or “us”) handles information when you use the App. Doodle Jam is a creative drawing tool distributed through Google Play.</p>
+
+      <p class="summary"><strong>Privacy at a glance:</strong> Doodle Jam does not require an account, does not connect to our own servers, and does not include advertising, analytics, or tracking SDKs. Your drawings, photos, brushes, and settings are processed and stored on your device. Information leaves your device only when you choose to share or export something, or when Google Play processes a purchase.</p>
+
+      <h2>1. Information Processed on Your Device</h2>
+      <p>Doodle Jam processes the following information locally to provide its features:</p>
+      <ul>
+        <li><strong>Creative content:</strong> strokes, layers, colors, canvas settings, imported photos, custom brush images, brush packages, saved brush presets, and generated previews.</li>
+        <li><strong>Preferences:</strong> language, appearance, canvas, tool, color, brush, symmetry, sound, and confirmation settings.</li>
+        <li><strong>Generated media:</strong> exported PNG and JPG images, PDF documents, Doodle Jam project files, and MP4 recordings of your drawing process.</li>
+        <li><strong>Purchase status:</strong> product and purchase-state information returned by the Google Play Billing Library so the App can unlock Doodle Jam Pro.</li>
+      </ul>
+      <p>We do not receive your creative content or preferences because you use the App. The App has no account system and does not upload your work to us.</p>
+
+      <h2>2. Local Storage</h2>
+      <p>Your in-progress drawing, brush library, palettes, and preferences are stored in the App’s private storage on your device. They remain until you delete the content, reset a setting, clear the App’s data, uninstall the App, or reset the device. Android’s own device backup may include this data if you have enabled it; that backup is handled by Google under its policies.</p>
+      <p>Content you export to your photo gallery, to files, or to another app must be managed separately in that destination.</p>
+
+      <h2>3. Photos, Files, and Recording</h2>
+      <p>When you choose a picture for a canvas or a custom brush, Android’s system photo picker or document picker lets you select the specific item you want to use. Doodle Jam receives and processes only the item you select. It may be resized and stored locally as part of your drawing or brush library.</p>
+      <p>When you save a recording, it is added to your device’s Movies folder; when you export a file, you choose where it is saved. Exports are created on your device and are not uploaded by us. The App does not request camera, microphone, location, or contacts permissions, and drawing-process recordings contain no microphone or ambient audio—only the App’s own sound effects, where enabled.</p>
+
+      <h2>4. Sharing Drawings</h2>
+      <p>You can share an editable drawing with other people through Android’s share sheet. A small drawing is encoded directly into a <code>doodlejam://</code> link; a larger one is shared as a Doodle Jam project file together with a preview image. These are delivered by the messaging app or service you choose—Doodle Jam does not host or store them. Anyone who receives the link or file can open and continue the drawing, so share it only with people you want to have it.</p>
+
+      <h2>5. Purchases</h2>
+      <p>Doodle Jam offers a one-time Doodle Jam Pro purchase. Billing, payment credentials, refunds, purchase history, and purchase restoration are handled by Google through Google Play. We do not receive or store your card number or payment details.</p>
+      <p>The App receives limited purchase information from Google Play, such as the product identifier, purchase state, and purchase token, solely to unlock, acknowledge, and restore purchased features. Google Play processes purchases under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+      <h2>6. Information You Choose to Share</h2>
+      <p>If you export or share a creation, the destination you choose—such as your gallery, a file location, a messaging app, or social media—processes that media under its own privacy policy. Doodle Jam does not publish your work automatically.</p>
+      <p>If you contact us by email, we receive your email address, message, attachments, and any other information you choose to provide. We use it to respond, provide support, prevent abuse, and meet legal obligations, and retain it only as long as reasonably necessary for those purposes.</p>
+
+      <h2>7. Analytics, Advertising, and Tracking</h2>
+      <p>Doodle Jam does not include analytics or advertising SDKs, does not use the advertising ID, does not create advertising profiles, and does not track you across apps or websites. We do not sell or share personal information.</p>
+
+      <h2>8. Children’s Privacy</h2>
+      <p>Doodle Jam is not directed at children under 13. The App can be used without creating an account or submitting personal information to us, and we do not knowingly collect personal information from children. If you believe a child has sent personal information to our support address, contact us so we can review and delete it.</p>
+
+      <h2>9. Security</h2>
+      <p>We minimize what is processed, keep creative work on your device, and do not operate servers that hold your content. No storage or transmission method is completely secure. Protect access to your device, share drawing links and files carefully, and keep backups of important exported work.</p>
+
+      <h2>10. Your Choices</h2>
+      <ul>
+        <li>You can use core drawing features without importing photos, sharing, or making a purchase.</li>
+        <li>You can remove local creative content in the App, clear the App’s data in Android Settings, or uninstall the App to delete everything it stores.</li>
+        <li>You can delete exported content from its destination.</li>
+        <li>You can restore an eligible purchase in the App and manage Google Play purchases and refunds through Google Play.</li>
+        <li>You can ask us to delete support information you previously sent by email.</li>
+      </ul>
+
+      <h2>11. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy to reflect changes to Doodle Jam, legal requirements, or our practices. The revised policy will be posted on this page with a new “Last updated” date.</p>
+
+      <h2>12. Contact</h2>
+      <p>For privacy questions or requests, contact us at <a href="mailto:qiweitech@gmail.com">qiweitech@gmail.com</a>.</p>
+
+      <hr>
+      <p class="muted">See also the <a href="android-dj-terms.html">Doodle Jam for Android Terms of Service</a>. Using an iPhone or iPad? See the <a href="dj-privacy.html">iOS Privacy Policy</a>.</p>
+    </article>
+    <div class="foot">© 2026 Doodle Jam. All rights reserved.</div>
+  </main>
+</body>
+</html>
